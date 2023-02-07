@@ -10,7 +10,7 @@ adminuser SHA-Password := "GYCVM7N9+bQ28pAJYqLQfNL98N0="<br>
         Service-Type = Administrative-User,<br>
         Cisco-AVPair = "shell:priv-lvl=15"<br>
 <hr>
-Так же можно воспользоваться кодом p2h.go<br>
+Так же можно воспользоваться кодом p2h.go (тут же вы найдете уже скомпилированные p2h.exe для windows и p2h для linux)<br>
 Им можно получить зашифрованный пароль либо SHA либо SSHA
 ./p2h -p "пароль" -t "тип шифрования sha или ssha"<br>
 Пример:<br>
