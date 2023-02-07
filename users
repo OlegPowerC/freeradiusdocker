@@ -52,11 +52,9 @@
 # Note that there is NO 'Fall-Through' attribute, so the user will not
 # be given any additional resources.
 #
-switchuser Cleartext-Password := "Testuser123%"
-	Service-Type = 1
-	
-switchadmin Cleartext-Password := "Testadmin123%"
-        Service-Type = 6
+adminuser SHA-Password := "GYCVM7N9+bQ28pAJYqLQfNL98N0="
+        Service-Type = Administrative-User,
+        Cisco-AVPair = "shell:priv-lvl=15"
 #
 #lameuser	Auth-Type := Reject
 #		Reply-Message = "Your account has been disabled."
