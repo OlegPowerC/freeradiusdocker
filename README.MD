@@ -13,6 +13,6 @@ adminuser SHA-Password := "GYCVM7N9+bQ28pAJYqLQfNL98N0="<br>
 Так же можно воспользоваться кодом p2h.go<br>
 Им можно получить зашифрованный пароль либо SHA либо SSHA
 ./p2h -p "пароль" -t "тип шифрования sha или ssha"<br>
-Пример:
-./p2h -p TestPass -t ssha 
+Пример:<br>
+./p2h -p TestPass -t ssha<br>
 SSHA-Password := "QN8QktOYqKxu14eZxOo4MN5KsQPmHcKUuzjkxfQJusopiEMW"
