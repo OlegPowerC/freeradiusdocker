@@ -6,6 +6,6 @@ echo -n <пароль> | openssl dgst -binary -sha1 | openssl base64<br>
 echo -n AdminTest | openssl dgst -binary -sha1 | openssl base64<br>
 <hr>
 Пример секции:<br>
-adminuser SHA-Password := "GYCVM7N9+bQ28pAJYqLQfNL98N0="
-        Service-Type = Administrative-User,
+adminuser SHA-Password := "GYCVM7N9+bQ28pAJYqLQfNL98N0="<br>
+        Service-Type = Administrative-User,<br>
         Cisco-AVPair = "shell:priv-lvl=15"
